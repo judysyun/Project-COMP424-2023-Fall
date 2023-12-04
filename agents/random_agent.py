@@ -50,3 +50,4 @@ class RandomAgent(Agent):
         dir = allowed_barriers[np.random.randint(0, len(allowed_barriers))]
 
         return my_pos, dir
+
